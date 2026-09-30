@@ -1,0 +1,23 @@
+ALGORITHME devisPeinture
+DEBUT
+    VARIABLE longueur, largeur : ENTIER
+    VARIABLE hauteur : REEL
+
+    ECRIRE("Entrer la longueur : ", longueur)
+    LIRE (longueur)
+
+    ECRIRE("Entrer la largeur : ", largeur)
+    LIRE (largeur)
+
+    ECRIRE("Entrer la hauteur : ", hauteur)
+    LIRE(hauteur)
+
+    surfaceNette <- ((longueur+largeur) *2)*0.8
+    nmbrPot <- surfaceNette/10
+    prixPot <- 29.90
+    prixTotal <- prixPot * nmbrPot
+
+    ECRIRE("La surface nette est de : ", surfaceNette)
+    ECRIRE("Le nombre de pots est de : ", nmbrPot)
+    ECRIRE("Et le prix total est de : ", prixTotal)
+FIN
