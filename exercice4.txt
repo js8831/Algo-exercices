@@ -9,4 +9,14 @@ DEBUT
     LIRE(taille)
 
     imc <- poids/taille * taille
+
+    SI imc < 18.5 ALORS
+        ECRIRE("Votre IMC est de : ", imc," - Insuffisance ponderale")
+    SINON SI imc > 18.4 ET < 25
+        ECRIRE("Votre IMC est de : ", imc," - Poids normal")
+    SINON SI imc > 24.9 ET < 30
+        ECRIRE("Votre IMC est de : ", imc," - Surpoids")
+    SINON SI imc > 29
+        ECRIRE("Votre IMC est de : ", imc," - Obesite")
+    FIN SI
 FIN
