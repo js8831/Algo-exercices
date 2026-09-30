@@ -1,0 +1,27 @@
+ALGORITHME calcPrixTtcAvecRemise
+DEBUT
+    // Declaration
+    VARIABLE prixHt, tauxRemise, montantRemise, prixFinal, tauxTva, montantTva, prixTtc : REEL
+
+    //Entrées
+    ECRIRE("Entrez le prix HT : ", prixHt)
+    LIRE(prixHt)
+
+    ECRIRE("Entrez le taux de remise : ", tauxRemise)
+    LIRE(remise)
+
+    ECRIRE("Entrez le taux de TVA : ", tauxTva)
+    LIRE(tauxTva)
+
+    // Traitement
+    montantRemise <- prixHt * tauxRemise/100
+    prixFinal <- prixHt - montantRemise
+    montantTva <- prixHt * tauxTva/100
+    prixTtc <- prixFinal + montantTva
+
+    // Sortie
+    ECRIRE("Le montant de la remise est de : ", remise, "euros")
+    ECRIRE("Le prix final est de : ", prixFinal, "euros")
+    ECRIRE("Le montant de la TVA est de : ", montantTva, "euros")
+    ECRIRE("Le prix TTC est de : ", prixTtc, "euros")
+FIN

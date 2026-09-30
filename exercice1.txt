@@ -1,0 +1,16 @@
+ALGORITHME conversionCelsiusEnFahreinheit
+DEBUT
+    // Declaration
+    VARIABLE tempCelsius : ENTIER
+    VARIABLE tempFahrenheit : ENTIER
+
+    // Entrée (saisie utilisateur)
+    ECRIRE("Entrez la température en celsius :", tempCelsius)
+    LIRE (tempCelsius)
+
+    // Traitement
+    tempFahrenheit <- tempCelsius * 9/5 + 32
+
+    // Sortie
+    ECRIRE("La Température en fahrenheit est de", tempFahrenheit, "degrés")
+FIN

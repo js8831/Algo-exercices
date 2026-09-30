@@ -1,0 +1,12 @@
+ALGORITHME calcImcAvecInterpretation
+DEBUT
+    VARIABLE poids, taille, imc : REEL
+
+    ECRIRE("Entrez votre poids : ", poids)
+    LIRE (poids)
+
+    ECRIRE("Entrez votre taille : ", taille)
+    LIRE(taille)
+
+    imc <- poids/taille * taille
+FIN

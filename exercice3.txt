@@ -1,0 +1,13 @@
+ALGORITHME echange
+DEBUT
+    VARIABLE a, b, temp : ENTIER
+    a <- 5
+    b <- 3
+
+    // Echange avec variable temporaire
+    temp <- a     // temp = 5
+    a <- b        // a = 3
+    b <- temp     // b = 5
+
+    ECRIRE("a = ", a, ", b = ", b)
+FIN
