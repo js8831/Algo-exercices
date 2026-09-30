@@ -40,7 +40,7 @@ else if (resultatImc > 24.9 && imc < 30) {
 //     SINON SI imc > 29
 //         ECRIRE("Votre IMC est de : ", imc," - vous êtes en obesite")
 else if (resultatImc > 29) {
-  console.log("Votre IMC est de : ", resultatImc, " - vous êtes en obesite");
+  console.log(`Votre IMC est de :  ${resultatImc}, - vous êtes en obesite`);
 }
 //     FIN SI
 // FIN
